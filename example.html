@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Reviews</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .review-container {
+        background-color: bisque;
+        padding-top: 70px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+      }
+
+      .carousel-item {
+        text-align: center;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+
+      .carousel-item.active {
+        opacity: 1;
+      }
+
+      .review-card {
+        background-color: white;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 10px;
+        max-width: 250px;
+        display: inline-block;
+      }
+
+      .review-card img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .review-card h2 {
+        padding: 10px;
+        font-size: 1rem;
+      }
+
+      .review-card p {
+        padding: 0 10px 10px 10px;
+        font-size: 0.9rem;
+      }
+
+      /* New Carousel Styles */
+      .small-carousel-container {
+        background-color: #e9ecef;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+      }
+
+      .small-carousel-item {
+        text-align: center;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+
+      .small-carousel-item.active {
+        opacity: 1;
+      }
+
+      .small-review-card {
+        background-color: white;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 10px;
+        max-width: 200px; /* Adjusted max-width for the new carousel */
+        display: inline-block;
+      }
+
+      .small-review-card img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .small-review-card h2 {
+        padding: 10px;
+        font-size: 0.8rem; /* Adjusted font size for the new carousel */
+      }
+
+      .small-review-card p {
+        padding: 0 10px 10px 10px;
+        font-size: 0.7rem; /* Adjusted font size for the new carousel */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid review-container">
+      <div
+        id="customerCarousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="5000"
+      >
+        <!-- Existing Carousel Content -->
+        <!-- ... -->
+      </div>
+    </div>
+
+    <div class="container-fluid small-carousel-container">
+      <div
+        id="smallCustomerCarousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="5000"
+      >
+        <div class="carousel-inner">
+          <div class="small-carousel-item active">
+            <div class="small-review-card">
+              <img class="img-fluid" src="Images/small1.jpg" alt="Customer 4" />
+              <h2 class="py-2">Jane</h2>
+              <p>
+                Another satisfied customer with the fantastic products and
+                excellent service.
+              </p>
+            </div>
+            <div class="small-review-card">
+              <img class="img-fluid" src="Images/small2.jpg" alt="Customer 5" />
+              <h2 class="py-2">Alex</h2>
+              <p>
+                Great quality and affordable prices. I highly recommend this
+                website.
+              </p>
+            </div>
+          </div>
+          <div class="small-carousel-item">
+            <div class="small-review-card">
+              <img class="img-fluid" src="Images/small3.jpg" alt="Customer 6" />
+              <h2 class="py-2">Emma</h2>
+              <p>
+                The customer support team was helpful, and delivery was quick.
+                Very satisfied!
+              </p>
+            </div>
+            <!-- Add more small review cards as needed -->
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#smallCustomerCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#smallCustomerCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

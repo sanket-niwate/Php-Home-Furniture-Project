@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="demo.css" />
+    <link
+    rel="shortcut icon"
+    href="Images/images (1).png"
+    type="image/x-icon"
+  />
+    <style>
+      .navbar-nav {
+        margin-left: auto;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      h1 {
+        display: block;
+        font-size: 1.5em;
+        margin-top: 0.83em;
+        margin-bottom: 0.83em;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-weight: bold;
+        text-align: center;
+      }
+
+    
+
+      .login-container {
+    max-width: 400px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+form {
+    text-align: left;
+}
+
+.form {
+    text-align: right;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff5100;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+   
+
+}
+.a-login{
+    text-decoration: none;
+    padding: 14p 25px;
+    text-align: justify;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+}
+
+.button:hover{
+    background-color: #ff510079;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+h1{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+footer {
+  background-color: #333; 
+    color: #fff;
+  
+}
+
+.btn-bd-primary {
+        --bd-violet-bg: #f7b51b;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #f7b51b;
+        --bs-btn-hover-border-color: #f7b51b;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #f7b51b;
+        --bs-btn-active-border-color: #f7b51b;
+      }
+
+    .imgage-login{
+        width: 17px;
+        height: 17px;
+        float: left;
+
+    }
+textarea{
+  float: left;
+  width: 370px;
+}
+
+.form-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 700px;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .image-section {
+        background-color: #2f4858;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+      }
+
+      .content-section {
+        padding: 20px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .img-login {
+        max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+      }
+
+      .input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      .a-login,
+      .registration-button {
+        background-color:  rgb(255, 123, 0);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      button {
+        background-color: rgb(255, 123, 0);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .a-login,
+      .registration-link {
+        color:  rgb(0, 0, 0);
+        text-decoration: none;
+      }
+
+      /* Media Query for Tablets and larger screens */
+      @media (min-width: 768px) {
+        .form-container {
+          flex-direction: row;
+        }
+
+        .image-section {
+          flex: 1;
+        }
+
+        .content-section {
+          flex: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="sticky-top bg-white">
+      <p class="py-2 text-center" style="background-color: #ffd166">
+        A Slice of pretty | Up to 50% off |
+        <a href="i.html" style="color: red">Click to Shop!</a>
+      </p>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-sm border-bottom pb-3">
+          <img
+            class="img-fluid pe-2"
+            width="50"
+            height="50"
+            src="Images/images (1).png"
+            alt=""
+          />
+          <span
+            class="fs-4"
+            style="
+              color: #2f4858;
+              font-weight: bold;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              font-family: Arial, sans-serif;
+            "
+            >Home
+          </span>
+          &nbsp;&nbsp;
+          <span
+            class="fs-4"
+            style="
+              color: rgb(255, 123, 0);
+              font-weight: bold;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              font-family: Arial, sans-serif;
+            "
+            >Furniture</span
+          >
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="i.php" aria-current="page">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.php">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallary.php">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.php">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Products</a>
+                <div class="dropdown-menu px-2" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#"><b>Products</b></a>
+                    <hr class="p-0">
+                    <a class="nav-link pt-0 active" href="pview.php">Chair</a> <a class="nav-link pb-1"
+                        href="pviewsofa.php">Sofas</a> <a class="nav-link pb-1"
+                        href="pviewtable.php">Tables</a>
+                </div>
+            </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Brands</a
+                >
+                <div class="dropdown-menu px-2" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#"><b>Brands</b></a>
+                  <a class="nav-link pb-1" href="Varaschin.php">Varaschin</a>
+                  <a class="nav-link pb-1" href="Tacchini.php">Tacchini</a>
+                  <a class="nav-link pb-1" href="point.php">Point1920</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar start -->
+    <nav class="py-1 mt-0 mb-3 container-sm pb-3 border-bottom">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item">
+          
+          </li>
+        </ul>
+        <ul class="nav">
+          <div class="text-end">
+            <button type="button" class="btn me-2">
+              <a
+                href="login.html"
+                class="nav-link link-body-emphasis px-2 p-0 active"
+                aria-current="page"
+                style="color: rgb(255, 123, 0)"
+                >Login</a
+              >
+            </button>
+            <button type="button" class="btn p-0">
+              <a
+                href="registration.html"
+                class="nav-link link-body-emphasis px-2 active"
+                aria-current="page"
+                style="color: #000000"
+                >Sign up
+              </a>
+            </button>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <main>
+     <!-- Login start -->
+     <h1
+     style="color: #ffffff; background-color: #2f4858; border-bottom: #333"
+     class="display-5 fw-bold py-5"
+   >
+   Login
+   </h1>
+     <br>
+     <br>
+     <div style="background-color: #ccc; padding-top: 20px; padding-bottom: 20px;">
+      <main class="form-signin w-100 m-auto">
+        <center> <div class="form-container">
+          <div class="image-section">
+              <!-- You can customize the image source and alt text accordingly -->
+              <img class="img-login" src="Images/login.jpg" alt="User Image">
+          </div>
+          <div class="content-section">
+              <form action="login.php" method="post">
+               
+                  <div class="form-group mt-3">
+                    <img class="imgage-login" src="Images/user.png" alt="">
+                      <label for="username">Username:</label>
+                      <input type="text" class="input" name="uname" placeholder="Enter a username" required>
+                  </div>
+                  <div class="form-group">
+                    <img class="imgage-login" src="Images/password (1).png" alt="">
+                      <label for="password">Password:</label>
+                      <input type="password" class="input" name="pass" placeholder="Enter a password" required>
+                  </div>
+                  <center>
+                      <button type="submit" class="a-login" style="padding-left: 100px ;padding-right: 100px;">Login</button><br><br>
+                  </center>
+                  <p><a class="registration-link" href="registration.html">Don't have an account? <span style="color: rgb(255, 123, 0)">Registration</span></a></p>
+              </form>
+  
+             
+          </div>
+      </div></center>
+        </main>
+      
+  </div>
+    
+    
+    
+    <br><br>  
+  
+  </main>
+  
+
+      <!-- Login end -->
+
+     
+
+      <!-- customer review start -->
+      
+      <!-- customer review end -->
+      <!-- contact as start -->
+      <div class="container-sm my-4">
+        <div>
+          <div
+            class="row mb-2"
+            style="
+              color: #2f4858;
+              font-weight: bold;
+              letter-spacing: 1px;
+              font-family: Arial, sans-serif;
+            "
+          >
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <p class="pt-3">The Company:</p>
+              <hr class="" style="width: 100%; color: #ff9500" />
+              <h6>About Us</h6>
+              <h6>Help</h6>
+              <h6>Privacy Policy</h6>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <p class="pt-3">More Information:</p>
+              <hr class="" style="width: 100%; color: #ff9500" />
+              <h6>Fees and Payment</h6>
+              <h6>Shipping & Delivery</h6>
+              <h6>Terms and Conditions</h6>
+              <h6>Warranty, Return and Refund</h6>
+              <h6>Contact Us</h6>
+              <h6>Visit Us</h6>
+              <h6>Buy In Bulk</h6>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <p class="pt-3">Explore More:</p>
+              <hr class="" style="width: 100%; color: #ff9500" />
+              <h6>Refer & Earn</h6>
+              <h6>Gift Cards</h6>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <p class="pt-3">Address:</p>
+              <hr class="" style="width: 100%; color: #ff9500" />
+              <h6>Reliance Retail Limited,</h6>
+              <h6>
+                3rd Floor, Court House, Lokmanya Tilak Marg, <br />
+                Dhobi Talao, Mumbai- 400 002,<br />
+                Maharashtra, India
+              </h6>
+            </div>
+          </div>
+          <hr />
+          <div
+            class="row"
+            style="
+              color: #2f4858;
+              font-weight: bold;
+              letter-spacing: 1px;
+              font-family: Arial, sans-serif;
+            "
+          >
+            <div class="col-6">
+              <p>Connect With Us:</p>
+              <img
+                class="p-1 img-fluid"
+                width="40"
+                height="40"
+                src="Images/call-receive-svgrepo-com.png"
+                alt=""
+              />&nbsp;
+              <img
+                class="p-1 img-fluid"
+                width="40"
+                height="40"
+                src="Images/email-1573-svgrepo-com.png"
+                alt=""
+              />
+              <img
+                class="p-1 img-fluid"
+                width="40"
+                height="40"
+                src="Images/instagram-svgrepo-com.png"
+                alt=""
+              />&nbsp;
+              <img
+                class="p-1 img-fluid"
+                width="40"
+                height="40"
+                src="Images/twitter-154-svgrepo-com.png"
+                alt=""
+              />&nbsp;
+              <img
+                class="p-1 img-fluid"
+                width="50"
+                height="50"
+                src="Images/facebook-svgrepo-com.png"
+                alt=""
+              />&nbsp;
+              <img
+                class="p-1 img-fluid"
+                width="35"
+                height="35"
+                src="Images/whatsapp-128-svgrepo-com.png"
+                alt=""
+              />&nbsp;
+              <img
+                class="p-1 img-fluid"
+                width="40"
+                height="40"
+                src="Images/linkedin-svgrepo-com.png"
+                alt=""
+              />&nbsp;
+              <img
+                class="p-1 img-fluid"
+                width="40"
+                height="40"
+                src="Images/youtube-168-svgrepo-com.png"
+                alt=""
+              />&nbsp;
+              <img
+                class="p-1 img-fluid"
+                width="45"
+                height="45"
+                src="Images/telegram-svgrepo-com.png"
+                alt=""
+              />
+            </div>
+            <div class="col-6">
+              <p>Download App:</p>
+              <img
+                class="img-fluid py-1"
+                width="150"
+                height="150"
+                src="Images/google-play-badge.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid py-1"
+                width="150"
+                height="150"
+                src="Images/google-play-badge.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact as end -->
+    </main>
+    <footer
+      style="background-color: #2f4858; height: fit-content"
+      class="p-5 mb-0"
+    >
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-6">
+            <p>Popular Furniture Categories:</p>
+          </div>
+          <div class="col-6">
+            <p>
+              Bed , Beds By Design , Sofa Set , Wooden Sofa , Sofas By Design ,
+              Sofa Cum Bed , Double Bed , Single Bed , Queen Size Bed , King
+              Size Bed , Chair , Wooden Table , Study Table , Study Chair ,
+              Wardrobe , Chest of Drawers , Futon , Loveseat , Dining Table Set
+              , Dining Chair , Bookshelves , Shoe Rack , TV Units , Recliners ,
+              Furniture , Office Furniture , Office Table , Office Chair , 2
+              Seater Sofa , TV Cupboard , TV Showcase , TV Stand , Center Table
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>Shop Furniture By Room:</p>
+          </div>
+          <div class="col-6">
+            <p>
+              Living Room Furniture , Bedroom Furniture , Dining Room Furniture
+              , Study Room Furniture , Bar Furniture , Balcony Furniture
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>Popular Decor Categories:</p>
+          </div>
+          <div class="col-6">
+            <p>
+              Home Decor , Carpets , Mirrors , Study Lamps , Table Lamps , Bed
+              Sheets , Floor Lamps , Wall Lights , Lighting , Ceiling Lights ,
+              Quilt , Wall Decor , Wall Mirror , Table Decor , Table Cover ,
+              Table Napkin , Table Mat , Cushion Cover , Table Runners , Home
+              Furnishing , Wall Art , Showpiece , Artificial Plants , Photo
+              Frame , Candle Stand , Clocks , Wall Clocks , Festive Lights ,
+              Candles , Bath Mat , Vases , Flower Vase , Bathroom Accessories ,
+              Bathroom Mirrors
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>We Accept:</p>
+          </div>
+          <div class="col-6">
+            <img class="img-fluid" src="Images/card_img.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <p class="text-center">&copy; 2023 Home Furniture</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

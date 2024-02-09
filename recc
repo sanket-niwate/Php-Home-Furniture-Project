@@ -1,0 +1,50 @@
+<form action="registration.php" method="post">
+  <div class="form-group">
+    <img class="img-login" src="Images/user.png" alt="" />
+    <label for="username">Name:</label>
+    <input
+      type="text"
+      class="input"
+      name="name"
+      placeholder="Enter a name"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <img class="img-login" src="Images/user.png" alt="" />
+    <label for="username">Username:</label>
+    <input
+      type="text"
+      class="input"
+      name="uname"
+      placeholder="Enter a name"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <img class="img-login" src="Images/email.png" alt="" />
+    <label for="Email">Email:</label>
+    <input
+      type="text"
+      class="input"
+      name="email"
+      placeholder="Enter a name"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <img class="img-login" src="Images/password (1).png" alt="" />
+    <label for="password">Password:</label>
+    <input
+      type="password"
+      class="input"
+      name="pass"
+      placeholder="Enter a password"
+      required
+    />
+  </div>
+  <!-- <button type="submit"><a class="a-login" href="i.html">Login</a></button> -->
+  <button type="submit"><a class="a-login">Registration</a></button>
+  <br /><br />
+  <!-- <p><a class="a-login" href="forgotpassword.html">Forgot password</a></p>  -->
+</form>
